@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	color-scheme: dark;
+}
+
+body {
+	// background-color: rgb(17, 124, 86);
+	font-family: "Inter", sans-serif;
+	// background: url(https://img1.akspic.ru/crops/9/6/4/5/3/135469/135469-interer-dizajn_interera-svecha-otrazhenie-lampa_nakalivaniya-2560x1440.jpg);
+	// background-repeat: no-repeat;
+	// background-size: cover;
+}
+
+.container {
+	margin-inline: auto;
+	padding-inline: 20px;
+	width: 100%;
+	max-width: 1280px;
+}

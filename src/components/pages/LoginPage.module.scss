@@ -1,0 +1,52 @@
+.LoginPage {
+	.content {
+		margin-top: 50px;
+		.cont {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			gap: 35px;
+			border: 2px solid;
+			border-radius: 15px;
+			margin-right: 400px;
+			margin-left: 400px;
+			flex-wrap: wrap;
+			// width: 400px;
+			height: 500px;
+			// margin-top: -40px;
+			&:hover {
+				transform: translateX(-0.5em) translateY(-0.5em);
+				border: 1px solid #171717;
+				box-shadow: 10px 10px 0px #666666;
+				background: red;
+			}
+			.classp {
+				font-size: 40px;
+			}
+			input {
+				width: 250px;
+				height: 30px;
+				border-radius: 2px;
+				&:hover {
+					transform: translateX(-0.5em) translateY(-0.5em);
+					border: 1px solid #171717;
+					box-shadow: 10px 10px 0px #666666;
+					background: red;
+				}
+			}
+			button {
+				background-color: red;
+				border-radius: 10px;
+				width: 100px;
+				height: 40px;
+				&:hover {
+					transform: translateX(-0.5em) translateY(-0.5em);
+					border: 1px solid #171717;
+					box-shadow: 10px 10px 0px #666666;
+					background: blue;
+				}
+			}
+		}
+	}
+}
